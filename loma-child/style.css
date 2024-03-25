@@ -1,0 +1,13 @@
+/*
+Theme Name: loma - Child
+Author: Dahz
+Author URI: http://dahz.daffyhazan.com/loma
+Description: Loma Theme Designed by <a href="http://www.daffyhazan.com">Dahz</a>.
+Version: 1.0.0
+Template: loma
+*/
+@import url("../loma/includes/css/layout.css");
+
+/*.single .entry-header {
+	display: none;
+}*/

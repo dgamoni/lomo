@@ -1,0 +1,16 @@
+/*=============================================================*/
+/*wyswyg editor style*/
+/*=============================================================*/
+ 
+body#tinymce, html.wp-fullscreen body#tinymce {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem 0;
+    border: none;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 14px;
+    line-height: 1.571;
+    color: #333;
+}
+.gallery img {
+    width: 100%}

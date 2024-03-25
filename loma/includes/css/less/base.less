@@ -1,0 +1,484 @@
+/* Table of Content
+==================================================
+    #Reset & Basics
+    #Basic Styles
+    #Site Styles
+    #Typography
+    #Links
+    #Lists
+    #Images
+    #Buttons
+    #Forms
+    #Misc */
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* #Basic Styles
+================================================== */
+body {
+    font-family: "Crimson Text", sans-serif;
+    font-size: 14px;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.571;
+    color: #999;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -ms-font-smoothing: subpixel-antialiased;
+    -ms-word-wrap: break-word;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+/* #Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+    color: #0f0f0f;
+    margin: 1em 0 .5em;
+    line-height: 1.2;
+    font-family: "Libre Baskerville", serif;
+    text-rendering: optimizelegibility;
+    font-weight: 400;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-weight: inherit;
+    color: #0f0f0f;
+}
+h1 {
+    margin-top: 0;
+    font-size: 2.441em;
+    /*34px*/
+}
+h2 {
+    font-size: 1.953em;
+    /*27px*/
+}
+h3 {
+    font-size: 1.563em;
+    /*22px*/
+}
+h4 {
+    font-size: 1.25em;
+    /*18px*/
+}
+h5 {
+    font-size: 1em;
+    /*14px*/
+}
+h6 {
+    font-size: .8em;
+    /*11px*/
+}
+.subheader {
+    color: #777;
+}
+p {
+    margin: 0 0 1.414em;
+}
+p img {
+    margin: 0;
+}
+p.lead {
+    font-size: 22px;
+    line-height: 27px;
+    color: #999;
+}
+em {
+    font-style: italic;
+}
+em.fa {
+    font-style: normal;
+}
+strong {
+    font-weight: 700;
+}
+small {
+    font-size: 80%}
+/*  Blockquotes  */
+blockquote, blockquote p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #999;
+    font-style: normal;
+}
+blockquote {
+    margin:0px;
+    padding: 2px 20px 0;
+    border-left: 1px solid #eee;
+}
+blockquote cite {
+    display: block;
+    font-size: 14px;
+    color: #444;
+}
+blockquote cite:before {
+    content: "\2014 \0020"}
+blockquote cite a, blockquote cite a:visited {
+    color: #444;
+}
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: solid #eee;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 10px 0 30px;
+    height: 0;
+}
+code, kbd, pre, samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -.5em;
+}
+sub {
+    bottom: -.25em;
+}
+mark {
+    background: 0 0;
+}
+iframe {
+    width: 100%}
+/* #Links
+================================================== */
+a {
+    // color: #ae9364;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    text-decoration: none;
+    outline: 0;
+}
+a:visited {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    text-decoration: none;
+    outline: 0;
+}
+a:focus, a:hover {
+    // color: #bea983;
+}
+p a, p a:visited {
+    line-height: inherit;
+}
+/* #Lists
+================================================== */
+ol, ul {
+    margin-bottom: 20px;
+}
+ul {
+    list-style: none;
+}
+ol {
+    list-style: decimal;
+}
+ol, ul.circle, ul.disc, ul.square {
+    margin-left: 30px;
+}
+ul.square {
+    list-style: square;
+}
+ul.circle {
+    list-style: circle;
+}
+ul.disc {
+    list-style: disc;
+}
+ol ol, ol ul, ul ol, ul ul {
+    margin: 4px 0 5px 30px;
+}
+ol ol li, ol ul li, ul ol li, ul ul li {
+    margin-bottom: 6px;
+}
+li {
+    line-height: 1.571;
+    margin-bottom: 12px;
+}
+li p, ul.large li {
+    line-height: 1.571;
+}
+/* #Images
+================================================== */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* #Buttons
+================================================== */
+.button, .widget a.button, a.button, button, input[type=button], input[type=reset], input[type=submit] {
+    background: #bea983;
+    border: 1px solid #bea983;
+    color: #fff;
+    display: inline-block;
+    font-size: 1em;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    line-height: normal;
+    padding: 11px 22px;
+    font-family: "Crimson Text", serif;
+    text-transform: uppercase;
+    letter-spacing: .0575em;
+    transition: all .3s ease-out 0s;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -webkit-appearance: none;
+    outline: 0;
+}
+.button:hover, .widget a.button:hover, a.button:hover, button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
+    color: #fff;
+    background: #ae9364;
+    border-color: #ae9364;
+}
+.button:active, .widget button:active, button:active, input[type=button]:active, input[type=reset]:active, input[type=submit]:active {
+    border: 1px solid #ae9364;
+}
+.button.full-width, button.full-width, input[type=button].full-width, input[type=reset].full-width, input[type=submit].full-width {
+    width: 100%;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    text-align: center;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+/* #Forms
+================================================== */
+fieldset, form {
+    margin-bottom: 22px;
+}
+input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+    border: 1px solid #eee;
+    padding: 11px 4px;
+    outline: 0;
+    font: 1em "Crimson Text", serif;
+    color: #999;
+    margin: 0 0 20px;
+    width: 220px;
+    border-radius: 0;
+    max-width: 100%;
+    background: #fff;
+}
+select {
+    padding: 10px 4px;
+}
+input[type=email]:focus, input[type=number]:focus, input[type=password]:focus, input[type=search]:focus, input[type=text]:focus, input[type=url]:focus, textarea:focus {
+    border: 1px solid #eee;
+    color: #444;
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+input[type=number], input[type=search] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+}
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    min-height: 60px;
+}
+label, legend {
+    border: 0;
+    padding: 0;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    display: inline;
+}
+label span, legend span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #0f0f0f;
+}
+select {
+    width: 220px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+ 
+/* #Misc
+================================================== */
+.remove-bottom {
+    margin-bottom: 0 !important;
+}
+.half-bottom {
+    margin-bottom: 10px !important;
+}
+.add-bottom {
+    margin-bottom: 20px !important;
+}
+address {
+    margin-bottom: 22px;
+}
+abbr, acronym {
+    border-bottom: 1px dotted #070707;
+}
+big {
+    font-size: larger;
+}
+code {
+    padding: 2px 4px;
+    color: #aaa;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    display: inline-block;
+}
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 20px;
+    font-size: 13px;
+    line-height: 20px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: pre-wrap;
+    background-color: #f7f7f9;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(225, 225, 238, .15);
+}
+cite, q, var {
+    font-style: italic;
+}
+.wp-caption-text {
+    color: #888;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+.wp-caption {
+    margin: 0 0 20px;
+    max-width: 100%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-image: initial;
+    text-align: left;
+}
+.df-main table {
+    border-spacing: 0;
+    width: 100%;
+    border-collapse: separate;
+    margin-bottom: 1.5em;
+}
+.df-main table td, .df-main table th {
+    padding: .8em;
+    text-align: left;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.df-main table td p:last-child, .df-main table th p:last-child {
+    margin-bottom: 0;
+}
+.df-main table thead th {
+    border-bottom: 1px solid #ddd;
+    padding: .8em;
+    font-weight: 700;
+    vertical-align: middle;
+}
+.df-main table tr td:last-child, .df-main table tr th:last-child {
+    border-right: 0;
+}
+.df-main table tbody th {
+    border-bottom: 1px solid #ddd;
+}
+.df-main table tbody td {
+    border-bottom: 1px solid #ddd;
+}
+.df-main table tbody h2 {
+    font-size: 1em;
+    letter-spacing: normal;
+    font-weight: 400;
+}
+.df-main table tbody h2 a {
+    font-weight: 400;
+}
+.df-main table tbody tr:last-child td, .df-main table tbody tr:last-child th {
+    border-bottom: 1px solid #ddd;
+}
+.df-main dt {
+    font-weight: 700;
+}
+.df-main dd {
+    margin-left: 20px;
+}
+.attachment img {
+    width: 100%}
+.df-category-content-post {
+    color: #999;
+}
+// ============================================================
+// misc begin
+// ============================================================
+.hide {
+    display: none;
+}
+.alignleft {
+    display: inline;
+    float: left;
+    margin: .4em 1.5em .4em 0;
+}
+.alignright {
+    display: inline;
+    float: right;
+    margin: .4em 0 .4em 1.5em;
+}
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: .4em auto;
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+// ============================================================
+// misc end
+// ============================================================

@@ -1,0 +1,39 @@
+** Loma Changelog **
+
+Version 1.3
+- Improve Core Framework
+- Update Fontawesome (includes/css/dhicon.css & includes/fonts/)
+- Fixed Fancy Header (includes/admin/functions/title-controller.php)
+- Fixed Double Title Tag (dahz/admin-setup.php)
+- Fixed JS You May Also Like (includes/js/plugin.js)
+- Fixed Css Mobile Header (includes/css/less/front.less)
+- Fixed Page loader transition (includes/js/page-loader.js)
+- Turn Off Notice Preset Kit (includes/admin/customizer/presets/preset-kit.php)
+- Add Share and Like in Shortcode Blog (plugins/df-shorcodes/shortcodes/blog.php)
+
+Version 1.2.1
+- Downgrade TGM Plugin Activation v2.3.6
+
+Version 1.2
+- Fixed CSS (Shortcode CTA)
+- Fixed JS (Custom Menu Widget, Mega Menu, Mobile Menu )
+- Fixed PHP (Share Single Blog, Basic Search Template)
+- Update master slider v2.9.8
+- Update TGM Plugin Activation v2.4.0
+- Add New Rating Functionality and Style
+- Improve Core Framework
+
+Version 1.1.1
+- Add New Preset Kit (health & beauty)
+- Fixed CSS (Mega menu)
+
+Version 1.1
+- Add New Preset Kit (recipe)
+- Add Child Theme v1.0
+- Add Mega Menu Position Center Functionality
+- Master Slider v2.9.7
+- Fixed CSS (Mobile Menu, Thumbnail Blurry Image, Customizer)
+- Fixed JS (Page Loader, MacBook Trackpad Event Swipe, Mobile Menu, Rating)
+
+Version 1.0
+- Initial Release

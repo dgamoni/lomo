@@ -1,0 +1,26 @@
+** DahzFramework Changelog **
+
+Version 1.3
+ * add backward compatibilty wp_title() 
+ * add extensions folder
+ * add customizer radiobox custom control
+ * add customizer checkbox custom control
+ * add customizer selectbox custom control
+ * add post format function
+ * add function df_is_customizing() checks if is customizing : two contexts, admin and front (preview frame)
+ * deprecated function df_get_template use dahz_get_template for global template part
+ * Update rwmb-metabox 4.4.1
+ * Update core attribute
+
+Version 1.2
+ * Add Theme Customizer controls
+ * Fixed customizer backup
+ * Update rwmb-metabox 4.3.11
+
+2014.11.01 - Version 1.1
+ * Add global options admin-customizer.php
+ * Use update_option when importing theme customizer.
+ * Adds the default framework actions and filters.
+
+2014.03.01 - Version 1.0.0
+ * First Logged release
